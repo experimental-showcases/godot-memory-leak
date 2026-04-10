@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bs2wthqrhcdn7"]
+
+[ext_resource type="Script" uid="uid://ccgu8savatumg" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Control" type="VBoxContainer" unique_id=376108793]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ig7tw")
+
+[node name="Button" type="Button" parent="." unique_id=626776843]
+layout_mode = 2
+text = "CREATE"

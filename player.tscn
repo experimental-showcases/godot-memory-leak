@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://lsqlf32uuoiw"]
+
+[ext_resource type="Script" uid="uid://k08lm5dek81h" path="res://player.gd" id="1_4flbx"]
+
+[node name="TestButton" type="Button" unique_id=1802456931]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 4.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "DESTROY"
+script = ExtResource("1_4flbx")
