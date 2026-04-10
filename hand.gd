@@ -1,6 +1,6 @@
 class_name Hand extends RefCounted
 
-var cards: Array[Card]
+var cards: Array[Card] = []
 
 func _init():
 	for i in range(5):
